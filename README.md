@@ -1,2 +1,3 @@
 # localhackday
-An open-source git-based music collaboration sftware
+An open-source git-based sheet music collaboration software
+
