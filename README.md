@@ -1,3 +1,4 @@
 # localhackday
-An open-source git-based sheet music collaboration software
+A game which teaches you bash and text editing with vim
+
 
