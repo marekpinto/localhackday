@@ -1,0 +1,24 @@
+
+
+
+int playerhealth = 100;
+int life = 3;
+
+
+
+checkplayerstatus()
+{
+
+if(playerhealth<=0)
+  {
+  life--;
+  }
+  
+  if(life<=0)
+  {
+  
+  return exit();
+  }
+
+
+exit
