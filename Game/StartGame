@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./Levels/tutorial
+./Levels/dungeon1
+./Levels/dungeon2
+./Levels/dungeon3
