@@ -1,0 +1,132 @@
+﻿* We are making a game about bash and text-editing 
+
+
+
+
+
+
+Learn BASH 
+        
+https://docs.google.com/spreadsheets/d/1OTSb6s64DbAsM-_jLgnf9V-valu7bvGA3Fa7Ry_zqSw/edit#gid=255665604 
+
+
+Linux GAME:
+
+
+This game is about learning bash commands and text editing using vim. 
+
+
+
+
+Backstory: A long time ago, in a galaxy far far away, there existed two rivaling factions. The polar bears( an incredibly dull bunch, who used brute force to rule ) who were ruled by Lord Jobs, and the penguins( a small and frail group, but extremely intelligent bunch, who dwelled in caves, often with their mothers).   
+
+
+At first, the world was ruled by penguins - fair, wise, and just creatures that kept the world in order. No penguin was more perfect than Tux, the embodiment of the penguin race. Then, tragedy struck. The polar bears grew jealous of the penguin’s power, and devised a plot to overthrow the rule of the just penguins. When the penguins were testing their new rocket for their space program, an aloof polar bear, out of spite of their intelligence, captured Tux in order to suck out his knowledge. 5 years have passed, and the penguins have fled to dark caves underground, gathering strength to one day restore the world. You are an innocent penguin, living in South America ignorant of the conflict of Antarctica. Until one day….
+<Click Enter To Continue>
+
+
+ Suddenly, you hear a loud knock on your door. You open the door and five well-dressed penguins quickly run in. They seem to be professionals, and it looks like they know magic.  Apparently, they have been monitoring you and think you have the potential to join the Free Penguin Army, an underground organization looking to save Tux. They take you to the caves of Antarctica, where you begin your training…. <Click Enter To Continue>
+
+
+Say echo <Text> to talk.
+Echo “Hello”
+Say “cd“ in order to change directories. Each folder is place.
+Say “pwd” in order to check which place you are in
+Say “ls” in order to list the places you can go.
+Say
+Say
+Say
+Say
+Say
+Say
+ 
+
+
+
+
+History with flag for no repeats for spells learned
+
+
+Commands taught:
+
+
+
+
+
+
+
+
+Pwd
+Cd
+Ls
+Touch
+File
+Cat
+Less
+History
+Cp
+Mv
+Mkdir
+Rm
+Find
+Help
+Man
+Whatis
+Alias
+Exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dungeon One: The basic terminal
+1. Intro text pops up with backstory and initial instructions, rules, etc 
+
+
+
+
+Bash code
+
+
+#! /bin/bash
+
+
+cd /home/spencer/myBash/Classes
+echo Hello, World!
+echo You just awoke from a nasty amnesia. You have been looted. Naked and hungry.
+read -p "What is your name?" name
+echo type '"ls"' to open up a list of possible classes you can take:
+read cmd
+while [ "$cmd" != "ls" ]; do echo Type '"ls"'; read cmd; done;
+eval $cmd
+echo please choose your weapon by typing the weapon listed:
+read weapon
+echo Good job, you pooped out a $weapon.
+echo As you look around, we realize you are shivering. You can choose what do to by typing '"ls"'
+cd /home/spencer/myBash/Classes/Bow
+read cmd
+eval $cmd
+echo Choose what you want to do by typing a name:
+read option
+if [ "$option" = "go_back_home" ]; then echo Congratulation, you reached home safely; fi;
+if [ "$option" = "look_around" ]; then echo Rest in peace, a bandit polar bear came and ripped you to shred; fi;
+if [ "$option" = "wait_calmly" ]; then  echo A polara sneaks by at the corner of you vision. Luckily, it did not notice your presence. However, you froze to death because you are in an antartica.; fi;
